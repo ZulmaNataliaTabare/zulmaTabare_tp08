@@ -1,3 +1,5 @@
+
+
 .main-contact {
     margin-top: 60px;
     padding: 20px;
@@ -66,16 +68,4 @@ input, textarea{
         color: #f0a5d9; 
         transform: rotateY('-5px');
     }
-    
-    /* .redes i{
-        display: block;
-        margin: 26px 0;
-        font-size: 25px;
-
-    }
-    
-    .redes i:hover{
-        color: rgb(235, 3, 243);
-        transform: translateY(-5px)
-    } */
 
