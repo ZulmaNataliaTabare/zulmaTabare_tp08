@@ -31,7 +31,7 @@
             <li><a href="#Home">Home</a></li>
             <li><a href="#Acerca-de-mi">Acerca de mi</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="#main-contact">Contacto</a></li>
         </ul>
     </header>
 
@@ -74,12 +74,14 @@
         </div>
 
         <!-- SECCIÓN PROYECTOS -->
-            
-            <div id="portfolio" class="portfolio-title"><h5>Portfolio</h5></div>
-            
-        
-            <div class="portfolio-text">
-            
+
+        <div id="portfolio" class="portfolio-title">
+            <h5>Portfolio</h5>
+        </div>
+
+
+        <div class="portfolio-text">
+
         </div>
         <section class="proyectos">
 
@@ -137,6 +139,38 @@
             </div>
 
         </section>
+
+
+        <section id="main-contact">
+
+            <form action="index.html" method="get">
+
+                <div>
+                    <label for="nombre">Nombre y Apellido: </label>
+                    <input id="nombre" type="text" placeholder="Nombre y Apellido" name="nombre">
+                </div>
+                <div>
+                    <label for="telefono">Teléfono: </label>
+                    <input id="telefono" type="number" placeholder="Ingrese su teléfono" name="telefono">
+                </div>
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input id="email" type="email" placeholder="Ingrese su e-mail" name="email">
+                </div>
+
+                <div>
+                    <label for="consulta">Escriba su consulta: </label>
+                    <textarea id="consulta" placeholder="Escriba su consulta" name="consulta"></textarea>
+                </div>
+
+
+                <div><button class="send-button" type="submit">Enviar</button></div>
+
+            </form>
+
+        </section>
+
+
     </main>
 
     <footer>

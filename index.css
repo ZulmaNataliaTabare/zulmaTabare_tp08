@@ -1,4 +1,11 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* HEADER */
+
 header{
     position:fixed;
     right:0;
@@ -53,6 +60,9 @@ header{
 .burger-menu-action{
     display: none;
 }
+
+
+/* SECTION-HERO */
 
 .hero{
     height: 100%;
@@ -164,6 +174,8 @@ section{
     transform: translateY(-5px)
 }
 
+/* SECTION-PROYECTOS */
+
 .proyectos{
     height: 100%;
     width: 100%;
@@ -239,6 +251,62 @@ section{
     from, to { border-color: transparent; }
     50% { border-color: white; }
 }
+
+/* CONTACT */
+
+#main-contact {
+    margin-top: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+form{
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form > div {
+    margin-bottom: 50px;
+}
+
+input, textarea{
+    background-color: rgb(238, 144, 218);
+    border-color: rgb(214, 10, 146);
+}
+
+.send-button{
+        position: relative;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: rgb(238, 144, 218);;
+        color: rgb(214, 10, 146);;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition:  background-color 0.3s ease; 
+    }
+    
+    
+    .send-button:hover {
+        background-color: #b30095; 
+    }
+
+
+
+
+
+/* FOOTER */
 
 button {
     position: fixed;

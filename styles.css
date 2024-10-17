@@ -1,6 +1,5 @@
 
 @import "index.css"; 
-@import "contact.css";
 
 
 /* NORMALIZACIÓN */
@@ -14,6 +13,8 @@
     text-decoration: none;
     color:rgb(214, 10, 146);
 }
+
+
 
 body {
     background-image: url(img/background.jpg);
