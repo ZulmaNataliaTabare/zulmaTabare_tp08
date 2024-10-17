@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/95801be2e2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- cabezera de la web -->
+    <header>
+        <!-- nombre -->
+        <a href="#" class="nombre">ZN TABARE</a>
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="burger-menu-action">
+            <div class="fa-solid fa-bars" id="burger-menu"></div>
+        </label>
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#Acerca-de-mi">Acerca de mi</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+        </ul>
+    </header>
+
+    <main class="main-contact">
+
+        <form action="index.html" method="get">
+
+            <div>
+                <label  for="nombre">Nombre y Apellido: </label>
+                <input id="nombre" type="text" placeholder="Nombre y Apellido" name="nombre">
+            </div>
+            <div>
+                <label  for="telefono">Teléfono: </label>
+                <input id="telefono" type="number" placeholder="Ingrese su teléfono" name="telefono">
+            </div>
+            <div>
+                <label  for="email">E-mail: </label>
+                <input id="email" type="email" placeholder="Ingrese su e-mail" name="email">
+            </div>
+
+            <div>
+                <label for="consulta">Escriba su consulta: </label>
+                <textarea id= "consulta" placeholder="Escriba su consulta" name="consulta"></textarea>
+            </div>
+
+            <div><button class="send-button" type="submit">Enviar</button></div>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <div class="redes-contact">
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://github.com/ZulmaNataliaTabare" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/natalia-tabare-55518826b/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <div>
+            <p>© 2024 ZNTABARE, todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+</body>
+

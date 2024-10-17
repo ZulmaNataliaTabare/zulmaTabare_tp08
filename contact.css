@@ -1,0 +1,81 @@
+.main-contact {
+    margin-top: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+form{
+    text-align: center;
+    width: 100%;
+    max-width: 600px; /* Ajusta este valor según tu necesidad */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form > div {
+    margin-bottom: 50px;
+}
+
+input, textarea{
+    background-color: rgb(238, 144, 218);
+    border-color: rgb(214, 10, 146);
+}
+
+.send-button{
+        position: relative;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: rgb(238, 144, 218);;
+        color: rgb(214, 10, 146);;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition:  background-color 0.3s ease; 
+    }
+    
+    
+    .send-button:hover {
+        background-color: #b30095; 
+    }
+
+    .redes-contact{
+    text-align: center;
+    margin-top: 5px;
+    top: 50vh;
+    padding: 0 3%;
+    transform: translateY(-50%);
+    }
+    
+    .redes-contact i {
+        margin: 0 10px;
+        font-size: 45px;
+        color:rgb(235, 3, 243);
+        text-decoration: none;
+        transition: all .5s ease;
+    }
+    
+    .redes-contact i:hover {
+        color: #f0a5d9; 
+        transform: rotateY('-5px');
+    }
+    
+    /* .redes i{
+        display: block;
+        margin: 26px 0;
+        font-size: 25px;
+
+    }
+    
+    .redes i:hover{
+        color: rgb(235, 3, 243);
+        transform: translateY(-5px)
+    } */
+
